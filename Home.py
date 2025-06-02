@@ -6,7 +6,7 @@ from PIL import Image
 import base64
 
 st.set_page_config(
-    page_title="Ultra Portfolio AI Assistant",
+    page_title="Investment Portfolio AI Assistant",
     page_icon="💼",
     layout="wide"
 )
