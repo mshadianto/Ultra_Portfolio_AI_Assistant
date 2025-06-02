@@ -1,7 +1,7 @@
-streamlit
+matplotlib
+seaborn
+yfinance
 pandas
 numpy
-yfinance
-plotly
-openai
-scipy
+streamlit
+Pillow
