@@ -89,7 +89,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-<div class="big-title">💼 Ultra Portfolio AI Assistant</div>
+<div class="big-title">💼 Investment Portfolio AI Assistant</div>
 <div class="subtitle">Optimalisasi strategi investasi dengan AI, rebalancing, benchmarking, dan proyeksi finansial.</div>
 """, unsafe_allow_html=True)
 
