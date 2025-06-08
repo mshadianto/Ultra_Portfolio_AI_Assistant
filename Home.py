@@ -4,9 +4,10 @@ import streamlit as st
 from datetime import date
 from PIL import Image
 import base64
+from version import APP_VERSION, APP_DATE
 
 st.set_page_config(
-    page_title="Investment Portfolio AI Assistant",
+    page_title="Ultra Portfolio AI Assistant",
     page_icon="💼",
     layout="wide"
 )
@@ -31,37 +32,37 @@ st.markdown("""
         html, body, [class*="css"]  {
             font-family: 'Space Grotesk', sans-serif;
             background-color: #f9f9f9;
-            color: #1c1c1c;
+            color: #1a1a1a;
         }
 
         .big-title {
             font-size: 3.2em;
             font-weight: 700;
-            color: #003366;
+            color: #1e3a8a;
             animation: fadeInDown 1.2s ease-out;
         }
 
         .subtitle {
             font-size: 1.3em;
-            color: #006699;
+            color: #3b82f6;
             margin-top: -10px;
             animation: fadeInUp 1.2s ease-out;
         }
 
         .highlight {
-            background: linear-gradient(135deg, #e6f2ff, #ffffff);
+            background: linear-gradient(135deg, #e0f2fe, #bfdbfe);
             padding: 1.2rem;
-            border-left: 6px solid #3399cc;
+            border-left: 6px solid #3b82f6;
             border-radius: 0.6rem;
             font-size: 1.05em;
             animation: slideIn 1s ease-in-out;
         }
 
         .card {
-            background-color: #ffffff;
+            background-color: #f1f5f9;
             padding: 1.2rem;
             margin-bottom: 1rem;
-            border-left: 6px solid #ff9933;
+            border-left: 6px solid #facc15;
             border-radius: 0.5rem;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
         }
@@ -89,7 +90,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-<div class="big-title">💼 Investment Portfolio AI Assistant</div>
+<div class="big-title">💼 Ultra Portfolio AI Assistant</div>
 <div class="subtitle">Optimalisasi strategi investasi dengan AI, rebalancing, benchmarking, dan proyeksi finansial.</div>
 """, unsafe_allow_html=True)
 
@@ -126,4 +127,4 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-st.caption("🧠 Dibuat oleh MS Hadianto | Versi: Beta {}".format(date.today().isoformat()))
+st.caption(f"🧠 Dibuat oleh MS Hadianto | Versi: {APP_VERSION} | Update: {APP_DATE}")
