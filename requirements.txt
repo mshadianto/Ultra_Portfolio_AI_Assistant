@@ -6,3 +6,4 @@ numpy
 streamlit
 Pillow
 scikit-learn
+plotly
