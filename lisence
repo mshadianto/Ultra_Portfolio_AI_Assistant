@@ -1,9 +1,51 @@
+# 📜 Global License Repository
+
+This repository contains the official license governing all public and private repositories owned by **MS Hadianto**.
+
+---
+
+## 📄 LICENSE
+
+```
 Copyright (c) 2025 MS Hadianto
 
-This software is released under a custom license.
+All rights reserved.
 
-You are permitted to use, copy, modify, or distribute this software for **non-commercial purposes only**, provided that this copyright notice is included in all copies.
+This software is not licensed for any use, distribution, reproduction, modification, or commercial exploitation without the prior written permission of the copyright holder.
 
-**Commercial use is strictly prohibited without prior written permission from the copyright holder.**
+**Any use — including academic, research, personal, or commercial — requires explicit authorization.**
 
-To request commercial use rights, please contact: [sopian.hadianto@gmail.com]
+To request permission, please contact: sopian.hadianto@gmail.com
+```
+
+---
+
+## 📌 How to Use This License
+
+If you are viewing this from another repository under the account [@mshadianto](https://github.com/mshadianto), please note:
+
+> All usage of this codebase is subject to the license terms outlined [here](./LICENSE.txt). No part of the code may be used without prior written consent.
+
+---
+
+## 🔗 Referenced By
+This license governs (but is not limited to) the following repositories:
+
+- [Model_Prediksi_Kebangkrutan_Perusahaan_v1](https://github.com/mshadianto/Model_Prediksi_Kebangkrutan_Perusahaan_v1)
+- [Ultra_Portfolio_AI_Assistant](https://github.com/mshadianto/Ultra_Portfolio_AI_Assistant)
+- [career_shift_analyzer](https://github.com/mshadianto/career_shift_analyzer)
+- [emas_idr_agent](https://github.com/mshadianto/emas_idr_agent)
+- [profiling_pegawai_ai](https://github.com/mshadianto/profiling_pegawai_ai)
+
+> ℹ️ You may add this license link in each repo's `README.md`:
+```md
+## 📜 License
+This project is licensed under a **custom license**.
+Use of this code requires explicit permission.
+See full terms here: [global-license-ms-hadianto/LICENSE](https://github.com/mshadianto/global-license-ms-hadianto/blob/main/LICENSE.txt)
+```
+
+---
+
+## 🔐 Disclaimer
+This license is written and enforced by the owner. Unauthorized use may result in takedown or legal action.
